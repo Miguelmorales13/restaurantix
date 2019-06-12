@@ -1,0 +1,4 @@
+miguel: Super dministrador : 12345
+laura: Administrador(Marisco) : 12345
+juan: Administrador(Mariscos) : 12345
+lupe: Mesero(Mariscos) : 12345
