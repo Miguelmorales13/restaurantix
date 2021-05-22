@@ -1,4 +1,4 @@
-export const urlServer = "http://localhost:3000";
+export const urlServer = process.env.NODE_ENV==='production'?'https://restaurantis.herokuapp.com':"http://localhost:3000";
 export const App = "Restaurantix";
 import toastr from "toastr";
 import { logout } from "./TokenValid";
