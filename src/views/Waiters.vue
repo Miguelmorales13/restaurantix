@@ -1,4 +1,4 @@
-<template lang="Waiters">
+<template id="Waiters">
   <div class="">
     <v-toolbar color="primary" dark tabs >
       <v-toolbar-title> {{app}} <span>({{shopActive}})</span> </v-toolbar-title>
