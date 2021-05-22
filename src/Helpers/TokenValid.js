@@ -15,6 +15,7 @@ const removeToken = () => {
 export const isValidToken = token => {
   if (token) {
     const payload = handlePayload(token);
+    console.log(payload)
     return payload && payload.iss === `${urlServer}/api/auth` ? true : false;
   }
   return false;

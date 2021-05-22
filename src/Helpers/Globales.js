@@ -1,4 +1,4 @@
-export const urlServer = "https://restaurantix.herokuapp.com";
+export const urlServer = "http://localhost:3000";
 export const App = "Restaurantix";
 import toastr from "toastr";
 import { logout } from "./TokenValid";

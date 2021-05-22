@@ -65,7 +65,7 @@ export default {
     if (isSuperSu()) {
       this.getShops();
     }
-    this.socket = io(urlServer);
+    this.socket = io(urlServer,{serveClient: false,});
     this.socket.on( `menus/${ isSuperSu() ? this.shopActive : this.getAnyUser("_shop._id") }/add`, this.addM );
     this.socket.on( `menus/${ isSuperSu() ? this.shopActive : this.getAnyUser("_shop._id") }/update`, this.updateM );
     this.socket.on(`menus/delete`, this.deleteM);
