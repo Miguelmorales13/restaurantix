@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/restaurantix/js/Login.fe1460b3.js"
   },
   {
-    "revision": "7bee71ecd358501b1f29",
+    "revision": "5877bbae15c86b9b9cf9",
     "url": "/restaurantix/css/Waiters.4909f206.css"
   },
   {
-    "revision": "7bee71ecd358501b1f29",
-    "url": "/restaurantix/js/Waiters.a4b1b296.js"
+    "revision": "5877bbae15c86b9b9cf9",
+    "url": "/restaurantix/js/Waiters.a0c4cb7b.js"
   },
   {
     "revision": "fb06d9c556a5911f33b4",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/restaurantix/js/admin.86de6c61.js"
   },
   {
-    "revision": "b3c362df062ec8e6f613",
+    "revision": "bb35b78888028de5ddd6",
     "url": "/restaurantix/css/app.70f830fa.css"
   },
   {
-    "revision": "b3c362df062ec8e6f613",
-    "url": "/restaurantix/js/app.6530a67b.js"
+    "revision": "bb35b78888028de5ddd6",
+    "url": "/restaurantix/js/app.51816646.js"
   },
   {
     "revision": "6bbdd558241234310939",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/restaurantix/js/chunk-vendors.c7d28755.js"
   },
   {
-    "revision": "62e2191ad3e5df2241902d477487953c",
+    "revision": "ec48999b7e7d976d76d27c27a254d717",
     "url": "/restaurantix/index.html"
   },
   {
