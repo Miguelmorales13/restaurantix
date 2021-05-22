@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/restaurantix/js/admin.86de6c61.js"
   },
   {
-    "revision": "dae54a5116297a61bf75",
+    "revision": "b3c362df062ec8e6f613",
     "url": "/restaurantix/css/app.70f830fa.css"
   },
   {
-    "revision": "dae54a5116297a61bf75",
-    "url": "/restaurantix/js/app.8f6ea345.js"
+    "revision": "b3c362df062ec8e6f613",
+    "url": "/restaurantix/js/app.6530a67b.js"
   },
   {
     "revision": "6bbdd558241234310939",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/restaurantix/js/chunk-vendors.c7d28755.js"
   },
   {
-    "revision": "a994321efad412ff66159043625f0e46",
+    "revision": "62e2191ad3e5df2241902d477487953c",
     "url": "/restaurantix/index.html"
   },
   {

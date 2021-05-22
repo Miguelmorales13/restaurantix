@@ -21,11 +21,11 @@ const router = new Router({
         import(/* webpackChunkName: "Login" */ "./views/Login.vue"),
       beforeEnter: (to, from, next) => {
         if (isValidToken(getToken()) && (getAnyUser('rol') === 'Super administrador' || getAnyUser('rol') === 'Administrador')) {
-          next('admin')
+          next({name:'admin'})
         } else if (isValidToken(getToken()) && getAnyUser('rol') === 'Mesero') {
-          next('mesero')
+          next({name:'mesero'})
         } else if (isValidToken(getToken()) && getAnyUser('rol') === 'Cocinero') {
-          next('cocinero')
+          next({name:'cocinero'})
         } else {
           next()
         }
@@ -38,13 +38,13 @@ const router = new Router({
         import(/* webpackChunkName: "Chefs" */ "./views/Chefs.vue"),
       beforeEnter: (to, from, next) => {
         if (isValidToken(getToken()) && (getAnyUser('rol') === 'Super administrador' || getAnyUser('rol') === 'Administrador')) {
-          next('admin')
+          next({name:'admin'})
         } else if (isValidToken(getToken()) && getAnyUser('rol') === 'Mesero') {
-          next('mesero')
+          next({name:'mesero'})
         } else if (isValidToken(getToken()) && getAnyUser('rol') === 'Cocinero') {
           next()
         } else {
-          next('/')
+          next({name:'login'})
         }
       }
     },
@@ -55,13 +55,13 @@ const router = new Router({
         import(/* webpackChunkName: "Waiters" */ "./views/Waiters.vue"),
       beforeEnter: (to, from, next) => {
         if (isValidToken(getToken()) && (getAnyUser('rol') === 'Super administrador' || getAnyUser('rol') === 'Administrador')) {
-          next('admin')
+          next({name:'admin'})
         } else if (isValidToken(getToken()) && getAnyUser('rol') === 'Mesero') {
           next()
         } else if (isValidToken(getToken()) && getAnyUser('rol') === 'Cocinero') {
-          next('cocinero')
+          next({name:'cocinero'})
         } else {
-          next('/')
+          next({name:'login'})
         }
       }
     },
@@ -74,11 +74,11 @@ const router = new Router({
         if (isValidToken(getToken()) && (getAnyUser('rol') === 'Super administrador' || getAnyUser('rol') === 'Administrador')) {
           next()
         } else if (isValidToken(getToken()) && getAnyUser('rol') === 'Mesero') {
-          next('mesero')
+          next({name:'mesero'})
         } else if (isValidToken(getToken()) && getAnyUser('rol') === 'Cocinero') {
-          next('cocinero')
+          next({name:'cocinero'})
         } else {
-          next('/')
+          next({name:'login'})
         }
       },
       children: [
